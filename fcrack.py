@@ -17,8 +17,10 @@ def list(file, pw):
 		brute(i.strip(),pw)
 
 if __name__ == '__main__':
-	if sys.version[0] > "3":
-		print("[!] please use python 3+ ")
+	if sys.version[0] in "3":
+		next
+	else:
+		print("[!] use python 3.*")
 		exit()
 
 	id = input("[*] input id list : ")
