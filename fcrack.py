@@ -26,6 +26,6 @@ if __name__ == '__main__':
 	id = input("[*] input id list : ")
 	pw = input("[*] pass to crack : ")
 	o = open(id, "r").readlines()
-	print("[~] loaded %s id"%(len(o.strip())))
+	print("[~] loaded %s id"%(len(o)))
 	print("[~] with password to crack : "+ pw)
 	list(id,pw)
